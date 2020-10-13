@@ -97,7 +97,7 @@ relevant = sorted(doc2similarity, key=lambda kv: -kv[1])[:3]
 print(sorted(doc2similarity, key=lambda kv: -kv[1])[:3] )
 
 print("The top 3  most relevant paragraphs for the query 'What is the function of money?' according to TF-IDF model: ")
-print("Relevnt 1: \n"+originialPara[relevant[0][0]] + "\n")
+print("Relevant 1: \n"+originialPara[relevant[0][0]] + "\n")
 print("Relevant 2: \n"+originialPara[relevant[1][0]] + "\n")
 print("Relevant 3: \n"+originialPara[relevant[2][0]])
 
